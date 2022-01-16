@@ -1,0 +1,452 @@
+/* PAGINA DE ESTILOS */
+
+/* ESTILO GENERAL DE LA PÁGINA */
+@font-face {
+    font-family: titulo;
+    src: url("../fonts/MPLUS2-Black.ttf");
+}
+
+@font-face {
+    font-family: texto;
+    src: url("../fonts/OpensSans.ttf");
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin:0;
+    padding:0;
+}
+
+#container {
+    width: 90%; /* Para no romper la verticalidad de la pantalla */
+    background-color: rgb(0, 0, 0); 
+    margin: auto;
+}
+
+.cortaFloat{
+    clear: both;
+}
+
+/***********    ESTILO DE LA BARRA DE NAVEGACIÓN        ***************/
+nav{
+    position: sticky !important;
+    top: 0 ;
+    z-index: 99;
+    font-size: 1.75em;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    }
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 57, 54);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+a:hover {
+    background-color: #ddd;
+    color: rgb(83, 0, 0);
+    }
+
+.topnav a.active {
+    background-color: #5c5c5ccc;
+    color: white;
+    }
+
+.topnav .icon {
+    display: none;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+/**** ESTILO DE LA HERO SECTION ***/
+#hero_section{
+    background-image: url("../images/Alpine.jpg");
+    height:95vh;
+    background-size: cover;
+    background-position: center; /* En función del centro de interés de la imagen */
+    position: relative;
+    
+}
+#hero_h1{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2em; color: white; 
+    text-shadow: 2px 2px rgb(255, 57, 54);
+    font-family: titulo;
+}
+
+#cta{
+    position:absolute;
+    bottom: 40px;
+    left: 20px;
+    padding: 10px; 
+    background-color: #ffff;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+#cta:hover {
+    background-color: #404040;
+    cursor: pointer;
+    ;
+}
+/***************    ESTILO DE INTRODUCCIÓN        ************/
+#introduction{
+    color: white;
+    font-family: titulo;
+    padding: 4% 8%;
+    border-bottom: 3px solid white
+}
+
+#introduction-h1{
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px rgb(255, 57, 54);
+} 
+
+.introduction-p{ font-size: 1.25;
+text-align: justify;}
+.introduction-p::first-letter{font-size: 1.75em; color: rgb(191, 0, 0);
+}
+
+#masi{
+    width: 50%;
+    float:left; /* imagen pegada ala izqd y texto al rededor*/
+    margin: 25px;
+}
+
+/****************** ESTILO DE SECCION CAMBIOS DE REGLAMENTOS*************/
+#cambios-reglamento{
+    background-size: cover;
+    background-position: center; /* En función del centro de interés de la imagen */
+    position: relative;
+    border-bottom: 3px solid white;
+
+}
+
+#cambios-h{
+    text-align: center;
+    font-size: 2.5em;
+    margin: auto;
+    text-shadow: 2px 2px rgb(255, 57, 54);
+}
+
+#izquierda-h2{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    background-color: rgba(245, 245, 245, 0.734);
+}
+
+#derecha-h2{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    background-color: rgba(245, 245, 245, 0.734);
+}
+
+#columna-izquierda{
+    text-align: justify;
+    padding: 5px;
+}
+
+#columna-derecha{
+    text-align: justify;
+    padding: 5px;
+}
+
+#cambios-p{
+    margin: 25px;
+    text-align: justify;
+}
+
+.dt_Cambios{
+    margin: 15px;
+    font-size: 1.6em;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px red;
+    text-align:center;
+}
+
+#concept2021{
+    width: 80%; /* imagen pegada ala izqd y texto al rededor*/
+    margin: auto;
+    display: block;
+}
+
+#concept2022{
+    width: 80%; /* imagen pegada ala izqd y texto al rededor*/
+    margin: auto;
+    display: block;
+}
+
+#texto_cambios{
+    font-size: 1.25;
+    text-align: justify;
+    position: relative;
+    margin: auto;
+    width: 90%;
+}
+
+.mitad {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+/************  ESTILO DE LOS SECCIÓN EQUIPOS  *****/
+#equipos{
+    position:relative;
+    color: white;
+    font-family: titulo;
+    padding: 4% 8%;
+    border-bottom: rgb(255, 255, 255);}
+
+#h_equipo{
+    padding: 10px 15px;
+    font-size: 2.5em;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px rgb(255, 57, 54);
+}
+
+.teams{
+    width: 200px;
+    height: 200px;
+    padding: 10px 25px;
+    margin: 15px 15px;
+}
+
+.p-equipos{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: underline;
+}
+
+#dl_equipos{
+    background-color: rgb(0, 0, 0);
+} 
+.dt_equipos{
+    font-size: 2em;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+}
+
+.pilotos{
+    width: 5%;
+    padding: 5px 10px;
+    text-align: justify;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/****************   SECCION DRIVER STANDING ******************/
+#driver-standing{
+    position: relative;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#h1-driver_standing{
+    font-size: 2.5em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    text-shadow: 2px 2px rgb(255, 57, 54);
+}
+
+#encabezado-drivers{
+    font-size: 1.70em;
+    background-color: white;
+}
+
+#table_drivers{
+    position: relative;
+    text-align:center;
+    padding: 5px 5px;
+    color: black;
+    width: 100%;
+}
+
+#haas{
+    background-color: rgb(144, 144, 144);
+}
+
+
+#romeo{
+    background-color: darkred;
+}
+
+#ferrari{
+    background-color: red;
+}
+
+#mercedes{
+    background-color: aqua;
+}
+
+#redbull{
+    background-color: rgb(72, 0, 120);
+}
+
+#mclaren{
+    background-color:darkorange;
+}
+
+#alpine{
+    background-color: blue;
+}
+
+#tauri{
+    background-color: darkslategray;
+}
+
+#williams{
+    background-color: rgb(0, 200, 255);
+}
+
+#aston{
+    background-color: rgb(1, 81, 1);
+}
+
+/*****************  SECIIION STANGING ESCUDERIAS ********************/
+#constructor-standing{
+    position: relative;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#constructor-h1{
+    font-size: 2.5em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(255, 57, 54);
+}
+
+#encabezado-constructors{
+    font-size: 1.70em;
+    background-color: white;
+}
+
+#table-constructor{
+    position: relative;
+    text-align:center;
+    padding: 10px 5px;
+    color: black;
+    width: 100%;
+}
+
+/*************** SECCION VIDEOS DE F1 ****************/
+#videos{
+    color: white;
+    padding: 4% 8%;
+    border-top: 3px solid white;
+    position: relative;
+}
+
+#h1-video{
+    font-size: 3em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 57, 54);
+}
+
+.vide-names{
+    text-align: justify;
+    font-size: 1.75em;
+    background-color: grey;
+    color: white;
+}
+
+.video-size{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.videos h3{
+    text-align: center;
+    font: size 1.25em;
+}
+
+/******** SECCIÓN FOOTER *************/
+#page_foot{
+    padding: 15px 20px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+}
+
+.foot{
+    padding: 15px 20px;
+    margin: auto;
+    font-size: 1.25em;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+#a-footer{
+    color: rgba(0, 200, 255, 0.476);
+}
+
+#a-back{
+    text-transform: uppercase;
+}
+
+#back{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px  rgb(255, 57, 54);
+    text-align: right;
+    padding: 5px 5px;
+}
+
+/*********************  media queries     ***********************/
+@media only screen and (max-width: 1000px) {
+    #masi{ width: 100%;}
+    #concept2021 {width: 100%;}
+    #concept2022 {width: 100%;}
+    .pilotos{width: 20%;}
+    #driver-standing {width: 100%;}
+    #constructor-standing {width: 100%;}
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+        }
+    }
+
+@media screen and (max-width: 1200px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+        }
+    }

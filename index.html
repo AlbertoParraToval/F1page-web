@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 News</title>
+    <!-- ENLAZO CON EL ESTILO -->
+    <link rel="stylesheet" href="./styles/trabajo.css">
+    <!-- ENLAZO EL FAVICON-->
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <!-- ENLAZO CON JAVASCRIPT-->
+    <script src="./javascripts/javascript.js"></script>
+    <!-- Enlace si es con google font y no la descargo-->
+    <!-- PARA PODER PONER LOS ICONOS DE GOOGLE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-ico" href="./images/favicon.ico">
+
+</head>
+<body>
+    <div id="container">
+        <!-- BARRA DE NAVEGACION -->
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#hero_section" class="active">Home</a>
+                <a href="#introduction">Introduction</a>
+                <a href="#cambios-reglamento">Changing Regulations</a>
+                <a href="#equipos">F1 Teams</a>
+                <a href="#driver-standing">Drivers Standing</a>
+                <a href="#constructor-standing">Constructors Standing</a>
+                <a href="#videos">Videos</a>
+                <a href="#page_foot">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Hero Section, donde pondremos una foto to guapa + texto (LEMA)-->
+        <section id="hero_section">
+        <h1 id="hero_h1">Aerodynamics Regulations 2022</h1>
+        <a href="#page_foot"><p id="cta">Follow us!!</p></a>
+        </section>
+
+        <!--INTRODUCCION A LOS CAMBIOS Y EL PORQUE DE ESTOS-->
+        <section id="introduction">
+        <!-- Es un contenido de texto con una ilustración-->
+        <h1 id="introduction-h1">What is the aim with these new regulations?</h1>
+        <img id="masi" src="./images/masi.jpg" alt="Masi F1">
+
+        <p class="introduction-p">
+            The 2022 regulations are - or that is the goal - the salvation of Formula 1. It is the first technical regulation created by Liberty Media, which came to power in 2017 after ousting Bernie Ecclestone, and among its creators have been Pat Symonds, Nikolas Tombazis or Ross Brawn, former heads of teams like Renault, Ferrari, BrawnGP... With this new regulation, the aim is to improve Formula 1, starting with something that fails: the design of the cars themselves.
+        </p> 
+
+        <p class="introduction-p">
+            The lack of on-track action we have seen in recent years (2021 will be just the exception to the rule, although there will still be little overtaking) is blamed, among other things, on the single-seaters. 
+
+            Current F1 cars, when followed by another car, generate turbulence that can cause a loss of up to 50% of downforce in the F1 car trying to overtake. As a result, the overtake often does not take place or the driver is forced to lift his foot to avoid excessive damage to his tyres.
+        </p>
+
+        <p class="introduction-p">
+            The new 2022 F1 cars, thanks to all the changes made after two years of work in the wind tunnel and with computational fluid dynamics (CFD), will reduce this turbulence to 10%. If achieved, overtaking would be much less artificial - although DRS remains - and there would be more wheel-to-wheel fighting and, ultimately, more action.
+        </p>
+        <section>
+
+        <!-- SECCION CAMBIOS DE REGLAMENTO EN LA F1-->
+        <section id="cambios-reglamento">
+            <h1 id="cambios-h">What are these changes to the regulation?</h1>
+            
+            <!--FOTO COLUMNA IZQUIERDA-->
+            <div class="mitad" id="columna-izquierda">
+                <h2 id="izquierda-h2">2021</h2>
+                <img id="concept2021" src="./images/Concept2021.jpeg" alt="Concept2021">
+            </div>
+
+            <!--FOTO COLUMNA DERECHA-->
+            <div class="mitad" id="columna-derecha">
+                <h2 id="derecha-h2">2022</h2>
+                <img id="concept2022" src="./images/Concept2022.jpeg" alt="Concept2022">
+            </div> 
+            <div class="cortaFloat"></div>
+            <!--TEXTO DE MIS COLUMNAS-->
+            <div id="texto_cambios">
+                <hr>
+                <dl id="cambios-p">
+                    <dt class="dt_Cambios">1.Front part</dt>
+                    <dd>Nose of the horn becomes much wider and with a more pronounced droop.</dd>
+                    <dd>Redesigned endplates.</dd>
+                    <dd>Redesigned suspension arms.</dd>
+                    <dd>Front wheel deflectors added.</dd>
+                    <dd> Modified brake air intakes.</dd>
+                    
+                    <dt class="dt_Cambios">2.Lateral Part</dt>
+                    <dd>18-inch tyres.</dd>
+                    <dd>Return of the cups, except that they must rotate together with the wheel.</dd>
+                    <dd>Elimination of flat floor.</dd>
+                    <dd>Start of floor at a considerable height.</dd>
+                    
+                    <dt class="dt_Cambios">3.Rear part</dt>
+                    <dd>Larger rear spoiler with curved lines</dd>
+                    <dd>Despite what has been seen, DRS remains in place</dd>
+                    <dd>New diffuser</dd>
+                    
+                    <dt class="dt_Cambios">4.View from above</dt>
+                    <dd>The size of the single-seaters remains the same.</dd>
+                    <dd>The single-seaters are now about 60 kg heavier than the current ones.</dd>
+                    <dd>From above we can clearly see that there are no side deflectors.</dd>
+                </dl>
+            </div>           
+        </section>
+        
+        <!-- SECCION DE LOS NOMBRES DE EQUIPO Y PILOTOS-->
+        <section id="equipos">
+            <h1 id="h_equipo">F1 Teams and Drivers</h1>
+            <dl id="dl_equipos">
+                <dt class ="dt_equipos"><a href="https://es.mclaren.com/racing/"> Mclaren<img class="pilotos" src="./images/logo-mclaren-f1-2021.png" alt="Mclaren"></a></dt> 
+                <dd>Lando Norris</dd>
+                <dd>Danniel Ricciardo</dd>
+                <dt class ="dt_equipos"><a href="https://www.ferrari.com/en-KW/formula1"> Ferrari<img class="pilotos" src="./images/logo-ferrari-f1-2021.png" alt="Ferrari"></a></dt> 
+                <dd>Carlos Sainz</dd>
+                <dd>Charles Leclerc</dd>
+                <dt class ="dt_equipos"><a href="https://www.mercedesamgf1.com/en/"> Mercedes<img class="pilotos" src="./images/logo-mercedes-f1-2021.png" alt="Mercedes"></a></dt> 
+                <dd>Lewis Hamilton</dd>
+                <dd>Valtteri Bottas</dd>
+                <dt class ="dt_equipos"><a href="https://www.redbull.com/int-en/redbullracing"> RedBull<img class="pilotos" src="./images/logos-redbull-f1-2021.png" alt="RedBull"></a></dt> 
+                <dd>Max Verstappen</dd>
+                <dd>Sergio Pérez</dd>
+                <dt class ="dt_equipos"><a href="https://www.williamsf1.com/"> Williams<img class="pilotos" src="./images/logo-williams-f1-2021.png" alt="Williams"> </a></dt> 
+                <dd>George Russell</dd>
+                <dd>Nicolas Latifi</dd>
+                <dt class ="dt_equipos"><a href="https://shop.alpinecars.com/equipo-de-formula-1.html">Alpine <img class="pilotos" src="./images/logo-alpine-f1-2021.png" alt="Alpine"></a></dt> 
+                <dd>Fernando Alonso</dd>
+                <dd>Esteban Ocon</dd>
+                <dt class ="dt_equipos"><a href="https://www.scuderiaalphatauri.com/en/"> Alpha Tauri<img class="pilotos" src="./images/logo-alphatauri-f1-2021.png" alt="Alpha Tauri"></a></dt> 
+                <dd>Pierre Gasly</dd>
+                <dd>Yuki Tsunoda</dd>
+                <dt class ="dt_equipos"><a href="https://www.sauber-group.com/motorsport/formula-1/"></a> Alpha Romeo<img class="pilotos" src="./images/logo-alfa-romeo-f1-2021.png" alt="Alpha Romeo"></a> </dt> 
+                <dd>Kimi Raikonnen</dd>
+                <dd>Antonio Giovinnazi</dd>
+                <dt class ="dt_equipos"><a href="https://www.haasf1team.com/"> Haas<img class="pilotos" src="./images/logo-haas-f1-2021.png" alt="Haas"></a> </dt> 
+                <dd>Mick Schumacher</dd>
+                <dd>Nikita Mazepin</dd>
+                <dt class ="dt_equipos"><a href="https://www.astonmartin.com/en/our-world/amf1">Aston Martin<img id="Aston-martin" class="pilotos" src="./images/logo-aston-martin-f1-2021.png" alt="Aston Martin"></a> </dt> 
+                <dd>Sebastian Vettel</dd>
+                <dd>Lance Stroll</dd>
+            </dl>
+    
+        </section>
+
+        <!--SECCION DE LA CLASIFICACION DE LOS PILOTOS-->
+        <section id="driver-standing">
+            <h1 id="h1-driver_standing">Driver Standings</h1>
+            <table id="table_drivers">
+                <tr id="encabezado-drivers">
+                    <th>Pos</th>
+
+                    <th>Name</th>
+                
+                    <th>Team</th>
+                    
+                    <th>Pts</th>
+                </tr>
+                
+                <tr id="redbull">
+                    <td>1º</td>
+
+                    <td>Max Verstappen</td>
+                
+                    <td>RedBull F1 Honda Team</td>
+                
+                    <td>395.5</td>
+                </tr>
+                
+
+                <tr id="mercedes">
+                    <td>2º</td>
+
+                    <td>Lewis Hamilton</td>
+                
+                    <td>Mercerdes F1</td>
+                
+                    <td>387.5</td>
+                </tr>
+
+                <tr id="mercedes">
+                    <td>3º</td>
+
+                    <td>Valtteri Bottas</td>
+                
+                    <td>Mercedes F1</td>
+                
+                    <td>226</td>
+                </tr>
+
+                <tr id="redbull">
+                    <td>4º</td>
+
+                    <td>Sergio Pérez</td>
+                
+                    <td>RedBull F1 Honda Team</td>
+                
+                    <td>190</td>
+                </tr>
+
+                <tr id="ferrari">
+                    <td>5º</td>
+
+                    <td>Carlos Sainz</td>
+                
+                    <td>Ferrari</td>
+                
+                    <td>164.5</td>
+                </tr>
+
+                <tr id="mclaren">
+                    <td>6º</td>
+
+                    <td>Lando Norris</td>
+                
+                    <td>Mclaren F1 Team</td>
+                
+                    <td>160</td>
+                </tr>
+
+                <tr id="ferrari">
+                    <td>7º</td>
+
+                    <td>Charles Leclerc</td>
+                
+                    <td>Ferrari</td>
+                
+                    <td>159</td>
+                </tr>
+
+                <tr id="mclaren">
+                    <td>8º</td>
+
+                    <td>Danniel Ricciardo</td>
+                
+                    <td>Mclaren F1 Team</td>
+                
+                    <td>115</td>
+                </tr>
+
+                <tr id="tauri">
+                    <td>9º</td>
+
+                    <td>Pierre Gasly</td>
+                
+                    <td>Alpha Tauri F1</td>
+                
+                    <td>110</td>
+                </tr>
+
+                <tr id="alpine">
+                    <td>10º</td>
+
+                    <td>Fernando Alonso</td>
+                
+                    <td>Alpine F1</td>
+                
+                    <td>81</td>
+                </tr>
+
+                <tr id="alpine">
+                    <td>11º</td>
+
+                    <td>Esteban Ocon</td>
+                
+                    <td>Alpine F1</td>
+                
+                    <td>74</td>
+                </tr>
+
+                <tr id="aston">
+                    <td>12º</td>
+
+                    <td>Sebastian Vettel</td>
+                
+                    <td>Aston Martin</td>
+                
+                    <td>43</td>
+                </tr>
+
+                <tr id="aston">
+                    <td>13º</td>
+
+                    <td>Lance Stroll</td>
+                
+                    <td>Aston Martin</td>
+                
+                    <td>34</td>
+                </tr>
+
+                <tr id="tauri">
+                    <td>14º</td>
+
+                    <td>Yuki Tsunoda</td>
+                
+                    <td>Alpha Tauri F1</td>
+                
+                    <td>32</td>
+                </tr>
+
+                <tr id="williams">
+                    <td>15º</td>
+
+                    <td>George Russel</td>
+                
+                    <td>Williams F1</td>
+                
+                    <td>16</td>
+                </tr>
+
+                <tr id="romeo">
+                    <td>16º</td>
+
+                    <td>Kimi Raikonnen</td>
+                
+                    <td>Alpha Romeo F1</td>
+                
+                    <td>10</td>
+                </tr>
+
+                <tr id="williams">
+                    <td>17º</td>
+
+                    <td>Nicolas Latifi</td>
+                
+                    <td>Williams F1</td>
+                
+                    <td>7</td>
+                </tr>
+
+                <tr id="romeo">
+                    <td>18º</td>
+
+                    <td>Antonio Giovinnazi</td>
+                
+                    <td>Alpha Romeo F1</td>
+                
+                    <td>3</td>
+                </tr>
+
+                <tr id="haas">
+                    <td>19º</td>
+
+                    <td>Mick Schumacher</td>
+                
+                    <td>Haas</td>
+                
+                    <td>0</td>
+                </tr>
+                
+                <tr id="haas">
+                    <td>20º</td>
+
+                    <td>Nikita Mazepin</td>
+                
+                    <td>Haas</td>
+                
+                    <td>0</td>
+                
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <!--SECCION DE LA CLASIFICACION DE LOS EQUIPOS-->
+        <section id="constructor-standing">
+            <h1 id="constructor-h1">Constructor Standings</h1>
+            <table id="table-constructor">
+                <tr id="encabezado-constructors">
+                    <th>Position</th>
+                
+                    <th>Team</th>
+                    
+                    <th>Points</th>
+                </tr>
+    
+                <tr id="mercedes">
+                    <td>1º</td>
+                
+                    <td>Mercedes F1</td>
+                
+                    <td>613.5</td>
+                </tr>
+    
+                <tr id="redbull">
+                    <td>2º</td>
+                
+                    <td>RedBull F1 Team</td>
+                
+                    <td>585.5</td>
+                </tr>
+    
+                <tr id="ferrari">
+                    <td>3º</td>
+                
+                    <td>Ferrari</td>
+                
+                    <td>323.5</td>
+                </tr>
+    
+                <tr id="mclaren">
+                    <td>4º</td>
+                
+                    <td>Mclaren F1</td>
+                
+                    <td>275</td>
+                
+                </tr>
+    
+                <tr id="alpine">
+                    <td>5º</td>
+                
+                    <td>Alpine F1</td>
+                
+                    <td>155</td>
+                </tr>
+    
+                <tr id="tauri">
+                    <td>6º</td>
+    
+                    <td>Alpha Tauri F1</td>
+                
+                    <td>142</td>
+                </tr>
+    
+                <tr id="aston">
+                    <td>7º</td>
+    
+                    <td>Aston Martin F1</td>
+                
+                    <td>77</td>
+                </tr>
+                
+                <tr id="williams">
+                    <td>8º</td>
+    
+                    <td>Williams F1</td>
+                
+                    <td>23</td>
+                </tr>
+    
+                <tr id="romeo">
+                    <td>9º</td>
+    
+                    <td>Alpha Romeo F1</td>
+                
+                    <td>13</td>
+                </tr>
+    
+                <tr id="haas">
+                    <td>10º</td>
+    
+                    <td>Haas F1</td>
+                
+                    <td>0</td>
+                </tr>
+            </table>
+        </section>
+
+        <!--SECCION CON DOS VIDEOS-->
+        <section id="videos">
+            <h1 id="h1-video">Videos from the world of F1</h1>
+                <h3 class="video-names">IFons Spanish Youtuber</h3>
+                <iframe class="video-size" width="460" height="315" src="https://www.youtube.com/embed/hNop6ovf8xU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                <h3 class="video-names">F1 Theme</h3>
+                <iframe  class="video-size" width="460" height="315" src="https://www.youtube.com/embed/8AYy-BcjRXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                
+                <h3 class="video-names">Spanish Youtuber/Periodist of F1</h3>
+                <iframe class="video-size" width="460" height="315" src="https://www.youtube.com/embed/sf9lBs4zs5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div class="cortaFloat"></div>
+
+        <!-- Footer-->
+        <footer id="page_foot">
+                <p class="foot">Creator: Alberto Parra Toval</p>
+                <p>Contact me here: <a id="a-footer" href="mailto:alberto.parra.toval@gmail.com">@Contact_Web_Site</a></p>
+                <a id="a-back" href="#hero_section"><p id="back">Back Home</p></a>
+        </footer>
+    </div>
+</body>
+</html>
